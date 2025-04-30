@@ -1,0 +1,1 @@
+export { RightPanelByAnima } from "./RightPanelByAnima";

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --x01-primary: rgba(0, 0, 0, 1);
+  --x02-secondary: rgba(255, 255, 255, 1);
+  --x03-dark: rgba(0, 0, 0, 1);
+  --x04-gray: rgba(148, 151, 153, 1);
+  --x05-gray-light: rgba(220, 228, 231, 1);
+  --x06-white: rgba(255, 255, 255, 1);
+
+  --heading-1-font-family: "Cormorant Garamond", serif;
+  --heading-2-font-family: "Cormorant Garamond", serif;
+  --heading-3-font-family: "Cormorant Garamond", serif;
+  --heading-4-font-family: "Cormorant Garamond", serif;
+  --subtitle-1-font-family: "Open Sans", sans-serif;
+  --subtitle-2-font-family: "Open Sans", sans-serif;
+  --subtitle-2-bold-font-family: "Open Sans", sans-serif;
+  --paragraph-font-family: "Open Sans", sans-serif;
+  --button-font-family: "Open Sans", sans-serif;
+  --caption-font-family: "Open Sans", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-x03-dark;
+  }
+}

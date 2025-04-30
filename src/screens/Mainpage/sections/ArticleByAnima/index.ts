@@ -1,0 +1,1 @@
+export { ArticleByAnima } from "./ArticleByAnima";
